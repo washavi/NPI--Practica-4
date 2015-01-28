@@ -1,0 +1,297 @@
+<!--
+ * Título: Acelerómetro
+ * Licencia Pública General de GNU (GPL) versión 3 
+ * Autores:
+ * - José Francisco Bravo Sánchez
+ * - Pedro Fernández Bosch
+ * Fecha de la última modificación: 06/01/2015
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="npi4.acelerometro.MainActivity" >
+
+    <!-- Menu -->
+
+    <!-- End Menu -->
+
+
+    <!-- Sensor X -->
+
+    <TextView
+        android:id="@+id/labelX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:paddingTop="8dp"
+        android:text="@string/Ejex"
+        android:textColor="#A0A0A0"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/valueX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/labelX"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/labelX"
+        android:paddingTop="8dp"
+        android:textColor="#A0A0A0"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/labelMovX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:paddingTop="8dp"
+        android:text="@string/MovHorizontal"
+        android:textColor="#A0A0A0"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/valueMovX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/labelMovX"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/labelMovX"
+        android:textColor="#A0A0A0"
+        android:textSize="12sp" />
+
+    <!-- End SensorX -->
+
+
+    <!-- Sensor Y -->
+
+    <TextView
+        android:id="@+id/labelY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/labelX"
+        android:layout_marginBottom="5dp"
+        android:text="@string/Ejey"
+        android:textColor="#A0A0A0"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/valueY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/labelY"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/labelY"
+        android:textColor="#A0A0A0"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/labelMovY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/labelX"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:text="@string/MovVertical"
+        android:textColor="#A0A0A0"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/valueMovY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/labelMovY"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/labelMovY"
+        android:textColor="#A0A0A0"
+        android:textSize="12sp" />
+
+    <!-- End Sensor Y -->
+
+
+    <!-- Sensor Z -->
+
+    <TextView
+        android:id="@+id/labelZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/labelY"
+        android:layout_marginBottom="5dp"
+        android:text="@string/Ejez"
+        android:textColor="#A0A0A0"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/valueZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/labelZ"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/labelZ"
+        android:textColor="#A0A0A0"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/labelMovZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/labelMovY"
+        android:layout_below="@+id/labelMovY"
+        android:text="@string/MovProfundidad"
+        android:textColor="#A0A0A0"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/valueMovZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/labelMovZ"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/labelMovZ"
+        android:textColor="#A0A0A0"
+        android:textSize="12sp" />
+
+    <!-- End Sensor Z -->
+
+
+    <!-- Pambil -->
+
+
+    <!-- End Pambil -->
+
+
+    <!-- Sensor Power -->
+
+    <TextView
+        android:id="@+id/sensorPowerLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelZ"
+        android:text="@string/sensorPowerLabel"
+        android:textColor="#A0A0A0"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/sensorPowerValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/sensorPowerLabel"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/sensorPowerLabel"
+        android:textColor="#A0A0A0"
+        android:textSize="12sp" />
+
+    <!-- End Sensor Power -->
+
+
+    <!-- Barra separadora 1 -->
+
+    <!-- End Barra separadora 1 -->
+
+
+    <!-- Contador -->
+
+
+    <!-- End contador -->
+
+
+    <!-- Barra separadora 2 -->
+
+
+    <!-- End Barra separadora 1 -->
+
+
+    <!-- Feedback Text -->
+
+    <!-- End Feedback Text -->
+    <!-- Botones -->
+
+
+    <!-- End Botones -->
+
+    <Button
+        android:id="@+id/btEj1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="@string/BT_AGITAR" />
+
+    <Button
+        android:id="@+id/btEj2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/btEj1"
+        android:layout_below="@+id/btEj1"
+        android:layout_marginTop="17dp"
+        android:text="@string/BT_L" />
+
+    <Button
+        android:id="@+id/btEj3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/btEj2"
+        android:layout_below="@+id/btEj2"
+        android:layout_marginTop="17dp"
+        android:text="@string/BT_3" />
+
+    <RatingBar
+        android:id="@+id/rb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btEj1"
+        android:layout_toRightOf="@+id/valueMovZ"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:numStars="1" />
+
+    <RatingBar
+        android:id="@+id/rb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btEj2"
+        android:layout_toRightOf="@+id/valueMovZ"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:longClickable="false"
+        android:numStars="1" />
+
+    <RatingBar
+        android:id="@+id/rb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btEj3"
+        android:layout_alignLeft="@+id/rb2"
+        android:clickable="false"
+        android:focusable="false"
+        android:longClickable="false"
+        android:numStars="1" />
+
+    <RatingBar
+        android:id="@+id/rbFinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btEj1"
+        android:layout_centerHorizontal="true"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:longClickable="false"
+        android:numStars="4" />
+
+    <TextView
+        android:id="@+id/tvFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rbFinal"
+        android:text="@string/TW_FEEDBACK"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

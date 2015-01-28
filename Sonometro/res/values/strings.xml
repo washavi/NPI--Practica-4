@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sonómetro</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="BT_ILUMINACION">Iluminacion</string>
+    <string name="BT_SONOMETRO">Sonido</string>
+    <string name="BT_GRAVEDAD">Gravedad</string>
+    <string name="TW_DECIBELIOS">dB</string>
+    <string name="BT_X">X: </string>
+    <string name="BT_Y">Y:</string>
+    <string name="BT_Z">Z:</string>
+    <string name="TW_LUMINOSIDAD_DATSO">Valor Luminosidad</string>
+    <string name="TW_LUMINOSIDAD_MAX">Máximo</string>
+    <string name="NO_LIGTH_SENSOR">No tienes sensor de luz</string>
+
+</resources>

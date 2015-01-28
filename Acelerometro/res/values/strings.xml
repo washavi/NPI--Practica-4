@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Acelerometro</string>
+    <string name="action_settings">Settings</string>
+    <string name="Move">Shake to get a toast and to switch color</string>
+    <string name="menu_settings">Settings</string>
+    <string name="Ejex">Eje X: </string>
+    <string name="Ejey">Eje Y: </string>
+    <string name="Ejez">Eje Z: </string>
+    <string name="MovHorizontal">Mov. Hor: </string>
+    <string name="MovVertical">Mov. Ver: </string>
+    <string name="MovProfundidad">Mov. Pro: </string>
+    <string name="titulo">Valores acelerómetro</string>
+    <string name="sensorNameLabel">Sensor: </string>
+    <string name="sensorVersionLabel">Version: </string>
+    <string name="sensorPowerLabel">Potencia: </string>    
+    <string name="contador">0</string>
+    <string name="descriptionPambil">ImageView</string>
+    <string name="feedbackString">¡Bienvenido! Elije una opción</string>
+    
+    <string name= "contextMenu_volver">Volver</string>
+    <string name= "contextMenu_creditos">Créditos</string>
+    <string name= "contextMenu_codigoYus">Código fuente (Yus Bravo)</string>
+    <string name= "contextMenu_codigoPedro">Código fuente (Pedro Bosch)</string>
+    <string name= "contextMenu_salir">Salir</string>
+    <string name="BT_AGITAR">Subir-Bajar x2</string>
+    <string name="BT_L">Abajo izquierda Arriba</string>
+    <string name="BT_3">Acercar Alejar Izquierda</string>
+    <string name="TW_FEEDBACK">Elige un patrón a realizar</string>
+    <string name="HAZ_ARRIBA">Realiza movimientos hacia arriba</string>
+    <string name="HAZ_ABAJO">Realiza movimientos hacia abajo</string>
+    <string name="HAZ_IZQUIERDA">Realiza movimientos hacia la izquierda</string>
+    <string name="HAZ_DERECHA">Realiza movimientos hacia la derecha</string>
+    <string name="HAZ_TI">Realiza movimientos hacia ti</string>
+    <string name="HAZ_NO_TI">Realiza movimientos hacia el fondo</string>
+    <string name="HAZ_ELIGE">Elige movimiento a realizar</string>
+
+</resources>

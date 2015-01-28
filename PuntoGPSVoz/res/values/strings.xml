@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PuntoGPSVoz</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="LONGITUD">LONGITUD</string>
+    <string name="LATITUD">LATITUD</string>
+    <string name="SAY_TEXT">Diga Latitud y Longitud</string>
+    <string name="EMPEZAR_RECONOCIMIENTO">Coordenadas</string>
+    <string name="POSICION_ACTUAL">Posición actual</string>
+    <string name="RUTA">Ruta</string>
+    <string name="PROVIDER_OFF">P: OFF</string>
+    <string name="PROVIDER_ON">P: On</string>
+    <string name="RUTA_DESTINO_OK">Has llegado a tu destino</string>
+    <string name="RUTA_DESTINO_DERECHA">A la derecha</string>
+    <string name="RUTA_DESTINO_IZQUIERDA">A la izquierda</string>
+    <string name="RUTA_DESTINO_ARRIBA">Norte</string>
+    <string name="RUTA_DESTINO_ABAJO">Sur</string>
+    <string name="RUTA_DESTINO_ARRIBA_DERECHA">Noreste</string>
+    <string name="RUTA_DESTINO_ARRIBA_IZQUIERDA">Noroeste</string>
+    <string name="RUTA_DESTINO_ABAJO_DERECHA">Sureste</string>
+    <string name="RUTA_DESTINO_ABAJO_IZQUIERDA">Suroeste</string>
+    <string name="TOGGLE_WIFI">Wifi</string>
+    <string name="TOGGLE_GPS">GPS</string>
+    <string name="NORTE">norte</string>
+    <string name="SUR">sur</string>
+    <string name="ESTE">este</string>
+    <string name="OESTE">oeste</string>
+    <string name="MINUS">menos</string>
+
+</resources>

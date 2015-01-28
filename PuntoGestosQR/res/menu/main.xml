@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.jorgechp.npi.practica4.PuntoGestosQR.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+	<android.gesture.GestureOverlayView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/gestures"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:eventsInterceptionEnabled="true"
+	android:gestureStrokeType="multiple"
+	android:orientation="vertical" >
+	 
+	<TextView
+	android:id="@+id/tvLatitud"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="TextView" />
+	 
+	</android.gesture.GestureOverlayView>
+</menu>

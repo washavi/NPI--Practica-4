@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PuntoFotoBrujula</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="RELOJ_N">N</string>
+    <string name="RELOJ_S">S</string>
+    <string name="RELOJ_CENTRO">O </string>
+    <string name="RELOJ_ESTE">E</string>
+    <string name="TW_PUNTO_cARDINAL">Introducir punto</string>
+    <string name="TW_DESCRIPCION_1">La aguja roja señala el objetivo</string>
+    <string name="TW_DESCRIPCION_2">La aguja azul señala la posición actual</string>
+    <string name="TOAST_NUMBER_EXCEPTION">Introduce un número entre 0 y 360º</string>
+    <string name="CB_BEARING">Usar solo GPS</string>
+
+</resources>

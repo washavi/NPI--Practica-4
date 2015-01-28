@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PuntoGestosQR</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_android_gesture">AndroidGestureActivity</string>
+    <string name="BT_FOTO">Captura</string>
+    <string name="TV_LATITUD">Latitud</string>
+    <string name="TW_LONGITUD">Longitud</string>
+    <string name="NO_DATA_RECEIVED">No se ha encontrado ningún código QR</string>
+
+</resources>

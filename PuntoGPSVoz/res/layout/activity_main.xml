@@ -1,0 +1,148 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jorgechp.npi.practica4.gpsvoz.MainActivity" >
+
+    <Button
+        android:id="@+id/btStartVoz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/EMPEZAR_RECONOCIMIENTO" />
+
+    <GridLayout
+        android:id="@+id/grContenido"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btStartVoz"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:columnCount="2" >
+
+        <TextView
+            android:id="@+id/tvLongitud"
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="@string/LONGITUD" />
+
+        <TextView
+            android:id="@+id/tvLatitud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="right|top"
+            android:layout_marginRight="28dp"
+            android:layout_row="0"
+            android:text="@string/LATITUD" />
+
+        <TextView
+            android:id="@+id/tvDataLongitud"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/tvDataLatitud"
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="right|center_vertical"
+            android:layout_row="1" />
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/grContenido"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="@string/POSICION_ACTUAL"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <GridLayout
+        android:id="@+id/gridPosActual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/grContenido"
+        android:layout_alignRight="@+id/grContenido"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="18dp"
+        android:columnCount="2" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="@string/LONGITUD" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_column="1"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_row="0"
+            android:text="@string/LATITUD" />
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvPosActualLatitud"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="@string/RUTA"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tvruta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="47dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tvProviderStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/tvPosActualLongitud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView4"
+        android:layout_alignLeft="@+id/gridPosActual"
+        android:layout_toLeftOf="@+id/textView1" />
+
+    <TextView
+        android:id="@+id/tvPosActualLatitud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gridPosActual"
+        android:layout_toRightOf="@+id/tvruta" />
+
+    <ToggleButton
+        android:id="@+id/tgProvider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btStartVoz"
+        android:layout_alignBottom="@+id/btStartVoz"
+        android:layout_toRightOf="@+id/textView1"
+        android:text="@string/TOGGLE_WIFI"
+        android:textOff="@string/TOGGLE_GPS"
+        android:textOn="@string/TOGGLE_WIFI" />
+
+</RelativeLayout>
